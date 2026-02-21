@@ -1,11 +1,5 @@
 # Xray конфиги с роутингом для России 🇷🇺
 
-> **Минималистичный и рабочий роутинг для Xray-core:** торренты и российские ресурсы — напрямую, реклама — заблокирована, всё остальное — через прокси
-
-**Таргет-страна:** Россия 🇷🇺
-
----
-
 ## 📁 Файлы
 
 | Файл | Описание |
@@ -17,12 +11,12 @@
 
 ## 🚀 Установка для Happ
 
-| Роутинг | Диплинк | Описание |
-|---------|---------|----------|
-| **📶 Wi-Fi Routing** | [Установить](happ://routing/add/eyJOYW1lIjoiV2ktRmkgUm91dGluZyIsIkdsb2JhbFByb3h5IjoidHJ1ZSIsIlJvdXRlT3JkZXIiOiJibG9jay1wcm94eS1kaXJlY3QiLCJSZW1vdGVETlNUeXBlIjoiRG9IIiwiUmVtb3RlRE5TRG9tYWluIjoiaHR0cHM6Ly9jbG91ZGZsYXJlLWRucy5jb20vZG5zLXF1ZXJ5IiwiUmVtb3RlRE5TSVAiOiIxLjEuMS4xIiwiRG9tZXN0aWNETlNUeXBlIjoiRG9IIiwiRG9tZXN0aWNETlNEb21haW4iOiJodHRwczovLzc3Ljg4LjguOC9kbnMtcXVlcnkiLCJEb21lc3RpY0ROU0lQIjoiNzcuODguOC44IiwiR2VvaXB1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vcnVuZXRmcmVlZG9tL3J1c3NpYS12MnJheS1ydWxlcy1kYXQvcmVsZWFzZXMvbGF0ZXN0L2Rvd25sb2FkL2dlb2lwLmRhdCIsIkdlb3NpdGV1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vcnVuZXRmcmVlZG9tL3J1c3NpYS12MnJheS1ydWxlcy1kYXQvcmVsZWFzZXMvbGF0ZXN0L2Rvd25sb2FkL2dlb3NpdGUuZGF0IiwiTGFzdFVwZGF0ZWQiOiIxNzcxNzExMDAxIiwiRG5zSG9zdHMiOnt9LCJEaXJlY3RTaXRlcyI6WyJnZW9zaXRlOnByaXZhdGUiLCJnZW9zaXRlOnJ1LWF2YWlsYWJsZS1vbmx5LWluc2lkZSJdLCJEaXJlY3RJcCI6WyJnZW9pcDpwcml2YXRlIiwiZ2VvaXA6cnUiXSwiUHJveHlTaXRlcyI6W10sIlByb3h5SXAiOltdLCJCbG9ja1NpdGVzIjpbImdlb3NpdGU6Y2F0ZWdvcnktYWRzLWFsbCJdLCJCbG9ja0lwIjpbXSwiRG9tYWluU3RyYXRlZ3kiOiJJUElmTm9uTWF0Y2giLCJGYWtlRE5TIjoiZmFsc2UiLCJVc2VDaHVua0ZpbGVzIjoidHJ1ZSJ9) | РФ-сайты и IP напрямую, реклама заблокирована, остальное в прокси |
-| **🔒 Whitelist Routing** | [Установить](happ://routing/add/eyJOYW1lIjoiV2hpdGVsaXN0IFJvdXRpbmciLCJHbG9iYWxQcm94eSI6InRydWUiLCJSb3V0ZU9yZGVyIjoiYmxvY2stcHJveHktZGlyZWN0IiwiUmVtb3RlRE5TVHlwZSI6IkRvSCIsIlJlbW90ZUROU0RvbWFpbiI6Imh0dHBzOi8vY2xvdWRmbGFyZS1kbnMuY29tL2Rucy1xdWVyeSIsIlJlbW90ZUROU0lQIjoiMS4xLjEuMSIsIkRvbWVzdGljRE5TVHlwZSI6IkRvSCIsIkRvbWVzdGljRE5TRG9tYWluIjoiaHR0cHM6Ly83Ny44OC44LjgvZG5zLXF1ZXJ5IiwiRG9tZXN0aWNETlNJUCI6Ijc3Ljg4LjguOCIsIkdlb2lwdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL3J1bmV0ZnJlZWRvbS9ydXNzaWEtdjJyYXktcnVsZXMtZGF0L3JlbGVhc2VzL2xhdGVzdC9kb3dubG9hZC9nZW9pcC5kYXQiLCJHZW9zaXRldXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL3J1bmV0ZnJlZWRvbS9ydXNzaWEtdjJyYXktcnVsZXMtZGF0L3JlbGVhc2VzL2xhdGVzdC9kb3dubG9hZC9nZW9zaXRlLmRhdCIsIkxhc3RVcGRhdGVkIjoiMTc3MTcxMjQ5NCIsIkRuc0hvc3RzIjp7fSwiRGlyZWN0U2l0ZXMiOlsiZ2Vvc2l0ZTpwcml2YXRlIl0sIkRpcmVjdElwIjpbImdlb2lwOnByaXZhdGUiXSwiUHJveHlTaXRlcyI6W10sIlByb3h5SXAiOltdLCJCbG9ja1NpdGVzIjpbImdlb3NpdGU6Y2F0ZWdvcnktYWRzLWFsbCJdLCJCbG9ja0lwIjpbXSwiRG9tYWluU3RyYXRlZ3kiOiJJUElmTm9uTWF0Y2giLCJGYWtlRE5TIjoiZmFsc2UiLCJVc2VDaHVua0ZpbGVzIjoidHJ1ZSJ9) | Только приватные сети напрямую, всё остальное в прокси (строгий вайтлист) |
+| Роутинг | Диплинк | Raw JSON | Описание |
+|---------|---------|----------|----------|
+| **📶 Wi-Fi Routing** | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/wi_fi_routing.deeplink) | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/happ_wi_fi_routing.json) | РФ-сайты и IP напрямую, реклама заблокирована, остальное в прокси |
+| **🔒 Whitelist Routing** | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/whitelist_routing.deeplink) | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/happ_whitelist_routing.json) | Только приватные сети напрямую, всё остальное в прокси (строгий вайтлист) |
 
-> **Ссылки нужно открывать напрямую на устройстве** с установленным [Happ](https://happ.su)
+> **Чтобы установить роутинг:** открой ссылку «Просмотр» на устройстве с установленным [Happ](https://happ.su) — браузер подхватит `happ://` диплинк автоматически
 
 ### Отличия роутингов
 
@@ -54,9 +48,6 @@
 
 ### Remote (для всего остального)
 > **[Cloudflare DNS](https://1.1.1.1/): `1.1.1.1`** — DoH: `https://1.1.1.1/dns-query`
-
-- **`ipv4_first`** — приоритет IPv4
-- **`UseIP`** — резолвинг при роутинге по IP
 
 ---
 
