@@ -2,10 +2,10 @@
 
 ## 📁 Файлы
 
-| Файл | Описание |
-|------|----------|
-| `routing.json` | Правила роутинга в формате для v2rayN |
-| `routing_original.json` | Правила роутинга в нативном формате Xray |
+| Файл | Ссылка | Описание |
+|------|--------|----------|
+| `routing.json` | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/routing.json) | Правила роутинга в формате для v2rayN |
+| `routing_original.json` | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/routing_original.json) | Правила роутинга в нативном формате Xray |
 
 ---
 
