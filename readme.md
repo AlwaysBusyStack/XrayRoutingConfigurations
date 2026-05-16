@@ -1,24 +1,19 @@
 # Xray конфиги с роутингом для России 🇷🇺
 
-## 📁 Файлы
+## 📁 Файлы конфигурации
 
-| Файл | Ссылка | Описание |
-|------|--------|----------|
-| `routing.json` | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/routing.json) | Правила роутинга в формате для v2rayN |
-| `routing_original.json` | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/routing_original.json) | Правила роутинга в нативном формате Xray |
+| Файл | Клиент | Режим | Ссылка |
+|------|--------|-------|--------|
+| `v2rayn_wi_fi_routing.json` | V2RayN | Wi-Fi | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/v2rayn_wi_fi_routing.json) |
+| `v2rayn_whitelist_routing.json` | V2RayN | Whitelist | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/v2rayn_whitelist_routing.json) |
+| `xray_wi_fi_routing.json` | Xray (нативный) | Wi-Fi | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/xray_wi_fi_routing.json) |
+| `xray_whitelist_routing.json` | Xray (нативный) | Whitelist | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/xray_whitelist_routing.json) |
+| `nekobox_wi_fi_routing.json` | Nekobox Android | Wi-Fi | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/nekobox_wi_fi_routing.json) |
+| `nekobox_whitelist_routing.json` | Nekobox Android | Whitelist | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/nekobox_whitelist_routing.json) |
 
 ---
 
-## 🚀 Установка для Happ
-
-| Роутинг | Диплинк | Raw JSON | Описание |
-|---------|---------|----------|----------|
-| **📶 Wi-Fi Routing** | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/wi_fi_routing.deeplink) | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/happ_wi_fi_routing.json) | РФ-сайты и IP напрямую, реклама заблокирована, остальное в прокси |
-| **🔒 Whitelist Routing** | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/whitelist_routing.deeplink) | [Просмотр](https://raw.githubusercontent.com/AlwaysBusyStack/XrayRoutingConfigurations/refs/heads/master/happ_whitelist_routing.json) | Только приватные сети напрямую, всё остальное в прокси (строгий вайтлист) |
-
-> **Чтобы установить роутинг:** открой ссылку «Просмотр» на устройстве с установленным [Happ](https://happ.su) — браузер подхватит `happ://` диплинк автоматически
-
-### Отличия роутингов
+### Отличия режимов роутинга
 
 | | Wi-Fi Routing | Whitelist Routing |
 |-|--------------|------------------|
@@ -30,14 +25,38 @@
 
 ---
 
+## 🚀 Установка для V2RayN
+
+1. Скачать нужный файл (`v2rayn_wi_fi_routing.json` или `v2rayn_whitelist_routing.json`)
+2. Открыть **V2RayN** → меню **Настройки** → **Настройки роутинга**
+3. Нажать **Импортировать правила из файла** → выбрать скачанный файл
+4. Нажать **ОК**, перезапустить V2RayN
+
+> Не забудь обновить файлы геоданных в V2RayN: **Обновить** → **Обновить GeoIP и GeoSite**, либо вручную скачать `geoip.dat` и `geosite.dat` (ссылки ниже) и положить в папку с V2RayN.
+
+---
+
+## 📱 Установка для Nekobox (Android)
+
+1. Скачать нужный файл (`nekobox_wi_fi_routing.json` или `nekobox_whitelist_routing.json`)
+2. Открыть **Nekobox** → нижняя панель **Настройки** (⚙) → **Персонализация**
+3. Нажать **Пользовательский конфиг** → вставить содержимое скачанного файла → **Сохранить**
+4. Перезапустить туннель
+
+> Для работы гео-правил Nekobox нужны файлы геоданных в формате `.db`. Скачай `geoip.db` и `geosite.db` (ссылки ниже) и укажи их в настройках: **Настройки** → **Маршрутизация** → **Путь к GeoIP / GeoSite**.
+
+---
+
 ## 🔧 GeoIP и GeoSite
 
 Используются данные от [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat):
 
-| Файл | Ссылка |
-|------|--------|
-| `geoip.dat` | https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geoip.dat |
-| `geosite.dat` | https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geosite.dat |
+| Файл | Формат | Для | Ссылка |
+|------|--------|-----|--------|
+| `geoip.dat` | `.dat` | V2RayN, Xray | https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geoip.dat |
+| `geosite.dat` | `.dat` | V2RayN, Xray | https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geosite.dat |
+| `geoip.db` | `.db` | Nekobox | https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geoip.db |
+| `geosite.db` | `.db` | Nekobox | https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/geosite.db |
 
 ---
 
@@ -60,8 +79,8 @@
 - ✅ **BitTorrent** — торренты напрямую, без нагрузки на сервер
 - ✅ **Приватные сети** — `geoip:private`
 - ✅ **Приватные домены** — `geosite:private`
-- ✅ **Российские сайты** — `geosite:ru-available-only-inside`
-- ✅ **Российские IP** — `geoip:ru`
+- ✅ **Российские сайты** — `geosite:ru-available-only-inside` *(только Wi-Fi режим)*
+- ✅ **Российские IP** — `geoip:ru` *(только Wi-Fi режим)*
 
 ### 🔵 PROXY (через VPN)
 - 🌐 **Всё остальное** — весь глобальный трафик через прокси (`0-65535`, `tcp+udp`)

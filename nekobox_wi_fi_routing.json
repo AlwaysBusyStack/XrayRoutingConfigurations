@@ -1,0 +1,32 @@
+{
+  "route": {
+    "rules": [
+      {
+        "protocol": "bittorrent",
+        "outbound": "direct"
+      },
+      {
+        "geosite": "category-ads-all",
+        "outbound": "block"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "geosite": "private",
+        "outbound": "direct"
+      },
+      {
+        "geosite": "ru-available-only-inside",
+        "outbound": "direct"
+      },
+      {
+        "geoip": "ru",
+        "outbound": "direct"
+      }
+    ],
+    "final": "proxy",
+    "auto_detect_interface": true
+  }
+}
